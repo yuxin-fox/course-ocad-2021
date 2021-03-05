@@ -10,6 +10,7 @@ input {
 }
 
 
+
 html {
 	width: 100%;
 }
@@ -199,6 +200,13 @@ header h1 a {
 header h1 a img {
 	display: block;	
 }
+
+
+.cap-img {
+	text-align: center;
+	width:max-content;
+}
+
 
 /*Content*/
 .content {
