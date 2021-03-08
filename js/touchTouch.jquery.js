@@ -17,7 +17,6 @@
 		nextArrow = $('<a id="nextArrow"></a>'),
 		overlayVisible = false;
 		
-		
 	/* Creating the plugin */
 	
 	$.fn.touchTouch = function(){

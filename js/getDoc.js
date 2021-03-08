@@ -37,7 +37,7 @@ win
     header.removeAttr("class").addClass(names[i-2])
  })
 }(); });
-        function goToByScroll(id){
+function goToByScroll(id){
     $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
     }
     $(document).ready(function(){

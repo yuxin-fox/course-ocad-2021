@@ -1,7 +1,12 @@
-/**/
-@import url(http//fonts.googleapis.com/css?family=Signika:400,300,600,700);
-/* 'Signika', sans-serif */
+/* This file is the overview of styles for Assignment 2----Graphic Design */
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
 
+
+/* Define the Signika fonts */
+@import url(http//fonts.googleapis.com/css?family=Signika:400,300,600,700);
+@import "../css/social-links.css";  /* Style for social links of the pet hospital */
 @import "../css/reset.css";
 @import "../css/superfish.css";
 
@@ -9,15 +14,13 @@ input {
 	outline:  none !important;
 }
 
-
-
 html {
 	width: 100%;
 }
 
- a[href^="tel:"] {
-color: inherit;
-text-decoration:none;
+a[href^="tel:"] {
+	color: inherit;
+	text-decoration:none;
 }
 
 * {
@@ -45,23 +48,32 @@ body {
 	padding:0
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4, h5, h6 {
 	font-weight: normal;
 	font-family: 'Signika', sans-serif;
 	color: #ecedef;
 }
 
-h2 {
+h2{
+	font-weight: normal;
+	font-family: 'Signika', sans-serif;
+	color: #143f96;
+	font-size: 60px;
+	padding-top: 101px;
+	line-height: 60px;
+	text-align: center;
+} 
+
+h3{
+	font-weight: normal;
+	font-family: 'Signika', sans-serif;
+	color: #f6f8f8;
 	font-size: 60px;
 	padding-top: 101px;
 	line-height: 60px;
 	text-align: center;
 }
-
-h3 {
-	font-size: 48px;
-	line-height: 54px;
-}
+	
 
 p {
 	margin-bottom: 19px;
@@ -232,7 +244,7 @@ border-color: #334960 transparent transparent transparent;
 }
 
 #page3:after {
-	border-color: #f17c72 transparent transparent transparent;
+	border-color: #141b80 transparent transparent transparent;
 
 }
 
@@ -279,37 +291,41 @@ header.page5 .men4 .hover{
 }
 
 #page2 {
-	background-color: #f17c72;
+	background-image: url("../images/pets/2-1.gif");
 	padding-top: 230px;
 	padding-bottom: 500px;
 	padding-bottom: 190px;
 }
 
 header.page2 {
-	background-color: #f17c72;
+	background-color: #4c7ca7;
 }
 
 header.page2 .hover {
-	background-color: #e6655e;
+	background-color: #204566;
 }
 
 
 
 #page3 {
-	background-color: #32ac97;
+	background-image: url("../images/pets/anos/cover4.gif");
 	padding-top: 230px;
+	padding-bottom: 500px;
+	padding-bottom: 190px;
 }
 
 header.page3{
-	background-color: #32ac97;
+	background-color: #cdd869;
 }
 
 header.page3 .hover {
-	background-color: #46dcc7;
+	background-color: #d89d51;
 }
 
 #page4 {
-	background-color: #7f4c76;
+	background-image: url("../images/pets/anos/dogs2.gif");
+	opacity:0.85;
+	z-index: -1;
 }
 
 header.page4{
@@ -320,8 +336,13 @@ header.page4 .hover {
 	background-color: #b288ab;
 }
 
+#page6 {
+	background: rgba(144, 194, 197, 0.8)
+}
+
+
 #page5 {
-	background-color: #3f9fc9;
+	background-image: url("../images/pets/anos/cover2.gif");
 }
 
 header.page5{
@@ -340,7 +361,7 @@ header.page5 .hover {
 }
 
 #page2 h3 span {
-	background-color: #2aae96;
+	background-color: #494fa3;
 }
 
 #page2 h3 span, #page2 h3 em {
@@ -350,42 +371,9 @@ header.page5 .hover {
 
 #page2 h3 em {
 	font-style: normal;
-	background-color: #7f4c76;
+	background-color: #464dac;
 }
 
-.socials {
-	padding-top: 45px;
-	text-align: center;
-	font-size: 0;
-	line-height: 0;
-}
-
-.socials a {
-	display: inline-block;
-	font-size: 0;
-	line-height: 0;
-	width: 69px;
-	height: 69px;
-	background: url(../images/socials.png) 0 0 no-repeat;
-}
-
-.socials a:hover {
-	opacity: 0.5;
-}
-
-.socials a+a {
-	margin-left: 18px;
-	background-position: -87px 0;
-}
-
-.socials a+a+a {
-	background-position: -175px 0;
-	margin-left: 19px;
-}
-
-.socials a+a+a+a {
-	background-position: right 0;
-}
 
 .text1 {
 	font-size: 19px;
@@ -393,16 +381,16 @@ header.page5 .hover {
 }
 
 .box {
-	background-color: #e6655e;
-	border: 3px solid #f4948b;
-	padding: 23px 0 24px;
+	background-color: #4859b8;
+	border: 2px solid #8d89b1;
+	padding: 24px 0 24px;
 	border-top-width: 4px;
 	border-bottom-width: 4px;
 }
 
 .box img {
-	border: 3px solid #f4948b;
-	border-radius: 500px;
+	border: 1px solid #f4948b;
+	border-radius: 300px;
 	margin-bottom: 19px;
 }
 
@@ -410,56 +398,56 @@ header.page5 .hover {
 	margin-bottom: 1px;
 }
 
+.box:hover {
+	opacity:0.7;
+}
+
+
 .slogan {
 	margin-bottom: 117px;
-}
-
-
-
-.socials1 {
-	margin-top: 19px;
-	padding-top: 24px;
-	border-top: 2px solid #2aae96;
-	text-align: center;
-	font-size: 0;
-	line-height: 0;
-}
-
-.socials1 a {
-	display: inline-block;
-	font-size: 0;
-	line-height: 0;
-	width: 31px;
-	height: 31px;
-	background: url(../images/soc1.png) 0 0 no-repeat;
-}
-
-.socials1 a:hover {
-	opacity: 0.5;
-}
-
-.socials1 a+a {
-	width: 32px;
-	margin-left: 8px;
-	background-position: -39px 0;
-}
-
-.socials1 a+a+a {
-	background-position: -79px 0;
-}
-
-.socials1 a+a+a+a {
-	background-position: right 0;
 }
 
 #page3  {
 	padding-bottom: 190px;
 }
 
+#page4 .box {
+	color: #fff;
+	background-color: #acc2db;
+	border-color: #d7bcdb;
+	padding: 22px 15px 27px;
+}
+
+#page4 .box:hover {
+	opacity:0.7;
+}
+
+#page5 .box:hover {
+	opacity:0.7;
+}
+#page3 .box:hover {
+	opacity:0.7;
+}
+#page2 .box:hover {
+	opacity:0.7;
+}
+#page6 .box:hover {
+	opacity:0.7;
+}
+
+
+#page5 .box {
+	color: #fff;
+	background-color: #d2dbdd;
+	border-color: #decfe0;
+	padding: 22px 15px 27px;
+}
+
+
 #page3 .box {
 	color: #fff;
-	background-color: #46dcc7;
-	border-color: #99d6cb;
+	background-color: #cddc46;
+	border-color: #ececb7;
 	padding: 22px 15px 27px;
 }
 
@@ -579,9 +567,6 @@ address dd span {
 
 footer {
 	display: block;
-}
-
-footer {
 }
 
 footer a:hover {
